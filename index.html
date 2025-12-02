@@ -1,118 +1,155 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>رزومه آرش رضایی</title>
+    <title>Mostafa Rajaei — Security Researcher</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
     <style>
         body {
-            font-family: Vazirmatn, sans-serif;
-            background: #0d1117;
-            color: #e6edf3;
             margin: 0;
             padding: 0;
-            line-height: 1.9;
+            background: #0a0a0f;
+            color: #d7d7e0;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.8;
         }
-        @font-face {
-            font-family: Vazirmatn;
-            src: url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn/Vazirmatn-Regular.woff2') format('woff2');
+
+        h1, h2 {
+            font-family: 'Share Tech Mono', monospace;
+            color: #4cc9f0;
+            text-shadow: 0 0 8px #4cc9f0;
         }
+
         .container {
             max-width: 900px;
             margin: auto;
             padding: 40px 20px;
         }
-        h1, h2 {
-            color: #58a6ff;
-        }
-        .section {
-            margin-bottom: 35px;
-            padding: 20px;
-            background: #161b22;
-            border-radius: 12px;
-            border: 1px solid #30363d;
-        }
-        .contact a {
-            color: #58a6ff;
-            text-decoration: none;
-        }
-        .skills span, .tags span {
-            display: inline-block;
-            margin: 5px;
-            padding: 6px 12px;
-            background: #21262d;
-            border-radius: 8px;
-            border: 1px solid #30363d;
-            font-size: 14px;
-        }
+
         .header {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 50px;
         }
-        .header h1 {
+
+        .profile-pic {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #4cc9f0;
+            box-shadow: 0 0 15px #4cc9f0;
+            margin-bottom: 15px;
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(4px);
+        }
+
+        .skills span, .tags span {
+            display: inline-block;
+            margin: 6px;
+            padding: 6px 12px;
+            font-size: 14px;
+            background: #11151c;
+            border: 1px solid #4cc9f0;
+            border-radius: 6px;
+            font-family: "Share Tech Mono", monospace;
+        }
+
+        ul li {
             margin-bottom: 10px;
-            font-size: 32px;
         }
-        .header p {
-            opacity: 0.9;
+
+        .contact a {
+            color: #4cc9f0;
+            text-decoration: none;
+            font-family: "Share Tech Mono", monospace;
         }
+
         .footer {
             text-align: center;
+            color: #666;
             margin-top: 40px;
-            color: #8b949e;
+            font-size: 14px;
+            font-family: "Share Tech Mono", monospace;
+        }
+
+        .title-sub {
+            font-size: 17px;
+            color: #9be0ff;
+            margin-top: -10px;
+            margin-bottom: 10px;
+            text-shadow: 0 0 5px #4cc9f0;
         }
     </style>
 </head>
-<body>
 
+<body>
 <div class="container">
 
+    <!-- HEADER -->
     <div class="header">
-        <h1>آرش رضایی</h1>
-        <p>Web Application Security Researcher & Penetration Tester</p>
+        <img src="profile.jpg" class="profile-pic" alt="profile">
+        <h1>Mostafa Rajaei</h1>
+        <div class="title-sub">Web Application Security Researcher — Penetration Tester — Bug Hunter</div>
     </div>
 
+    <!-- BIO -->
     <div class="section">
-        <h2>بیوگرافی</h2>
+        <h2>Bio</h2>
         <p>
-            پژوهشگر امنیت وب، تست نفوذ، مدرس امنیت، اکسپلویت نویس و باگ هانتر.  
-            متخصص امنیت وب و موبایل، بررسی کد برای یافتن باگ، و تحقیقات امنیتی.
+            Web application security researcher, penetration tester, instructor, exploiter, and bug hunter.
+            Specialized in offensive security, red teamer, and exploitation of modern web and mobile applications.
         </p>
     </div>
 
+    <!-- FIELDS -->
     <div class="section">
-        <h2>زمینه‌های فعالیت</h2>
-        <p>Web & Mobile Penetration Testing — Code Review — Bug Hunting — Exploiting</p>
+        <h2>Fields of Expertise</h2>
+        <p>Web & Mobile Application Penetration Testing — Bug Hunting - Redteame</p>
     </div>
 
+    <!-- TEACHING -->
     <div class="section">
-        <h2>سوابق تدریس</h2>
+        <h2>Teaching Experience</h2>
         <ul>
-            <li>CEH (v9 , v10)</li>
-            <li>SANS SEC542 ، SANS SEC642</li>
-            <li>استانداردهای امنیت وب OWASP</li>
-            <li>OSINT — Google Hacking — Dark Web Searching</li>
+            <li>CEH v9 / CEH v10 Instructor</li>
+            <li>SANS SEC542 & SEC642</li>
+            <li>OWASP Web Application Standards</li>
+            <li>Red Team</li>
         </ul>
     </div>
 
+    <!-- CERTIFICATES -->
     <div class="section">
-        <h2>گواهینامه‌ها</h2>
-        <p>Linux — CEH — Python — SANS542 — SANS642 — Fortinet Firewall — ...</p>
+        <h2>Certificates</h2>
+        <p>Linux — CEH — Python — SANS542 — SANS642 — Fortinet Firewall — And Redteam ravin</p>
     </div>
 
+    <!-- EXPERIENCE -->
     <div class="section">
-        <h2>سوابق شغلی</h2>
+        <h2>Work Experience</h2>
         <ul>
-            <li>2012 — HPC — درگاه دانش</li>
-            <li>2015 — پژوهشگر امنیت وب — پردازش خوارزم</li>
-            <li>2017 — پژوهشگر امنیت وب — نگار آفاق</li>
-            <li>پنتست وب و موبایل</li>
-            <li>باگ هانتینگ در: HackerOne ، Ravro ، Bugdasht</li>
+            <li>2012 — HPC — Dargahe Danesh</li>
+            <li>2015 — Web Security Researcher — Pardazesh Kharazm</li>
+            <li>2017 — Web Security Researcher — Neghar Afagh</li>
+            <li>Other: Web & Mobile Penetration Testing</li>
+            <li>Bug Hunting: HackerOne, Ravro, Bugdasht, etc.</li>
         </ul>
     </div>
 
+    <!-- SKILLS -->
     <div class="section">
-        <h2>مهارت‌ها</h2>
+        <h2>Technical Skills</h2>
         <div class="skills">
             <span>Linux</span>
             <span>Debian</span>
@@ -121,13 +158,14 @@
             <span>JavaScript</span>
             <span>PHP</span>
             <span>Python</span>
-            <span>Web Exploiting</span>
+            <span>Exploitation</span>
         </div>
     </div>
 
+    <!-- LEARNING -->
     <div class="section">
-        <h2>یادگیری و ارتقاء</h2>
-        <p>Web Application Security — WAF Bypassing — Attack Methods — Open Source Tools</p>
+        <h2>Learning & Research</h2>
+        <p>Web Application Security — WAF Bypass — Attack Methods — Open Source Tooling</p>
         <div class="tags">
             <span>Go Lang</span>
             <span>JavaScript</span>
@@ -135,19 +173,16 @@
         </div>
     </div>
 
+    <!-- CONTACT -->
     <div class="section contact">
-        <h2>اطلاعات تماس</h2>
-        <p>📍 ایران، تهران</p>
-        <p>☎ <a href="tel:+989905938152">+98 990 593 8152</a></p>
-        <p>✉ <a href="mailto:me.namehunter@gmail.com">me.namehunter@gmail.com</a></p>
-        <p>تلگرام: <a href="https://t.me/men4me">@men4me</a></p>
+        <h2>Contact</h2>
+        <p>📧 <a href="mailto:me.namehunter@gmail.com">me.namehunter@gmail.com</a></p>
     </div>
 
     <div class="footer">
-        © 2025 — Arash Rezaei
+        © 2025 — Mostafa Rajaei — Offensive Security Portfolio
     </div>
 
 </div>
-
 </body>
 </html>
